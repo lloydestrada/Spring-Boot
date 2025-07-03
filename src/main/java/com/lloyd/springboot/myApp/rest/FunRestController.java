@@ -17,4 +17,9 @@ public class FunRestController {
     public String getWorkout(){
         return "Nice Run!";
     }
+
+    @GetMapping("/funds")
+    public String getFunds(){
+        return "You do not have any funds!";
+    }
 }
