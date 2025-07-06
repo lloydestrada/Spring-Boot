@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class FunRestController {
 
     //expose "/" return Hello World
-
     @GetMapping("/")
     public String sayHello(){
         return "Hello Lloyd!";
@@ -23,8 +22,4 @@ public class FunRestController {
         return "You do not have any funds!";
     }
 
-    @GetMapping("/koshka")
-    public String getKoshka(){
-        return "koshka pogi";
-    }
 }
