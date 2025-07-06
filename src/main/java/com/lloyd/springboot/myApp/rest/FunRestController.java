@@ -22,4 +22,9 @@ public class FunRestController {
     public String getFunds(){
         return "You do not have any funds!";
     }
+
+    @GetMapping("/koshka")
+    public String getKoshka(){
+        return "koshka pogi";
+    }
 }
