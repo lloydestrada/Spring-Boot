@@ -41,10 +41,18 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--ADD DEVTOOLS FOR AUTOMATIC CHANGES -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
+
+		<!--ADD SUPPORT SPRING BOOT ACTUATOR -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-actuator</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
