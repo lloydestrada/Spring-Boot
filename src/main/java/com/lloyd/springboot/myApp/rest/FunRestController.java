@@ -22,4 +22,10 @@ public class FunRestController {
         return "You do not have any funds!";
     }
 
+    @GetMapping("/Profile")
+    public String getProfile(){
+
+        return "This is my profile";
+    }
+
 }
