@@ -47,6 +47,12 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
+		<!--ADD SUPPORT SPRING BOOT SECURITY-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
 		<!--ADD DEVTOOLS FOR AUTOMATIC CHANGES -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
