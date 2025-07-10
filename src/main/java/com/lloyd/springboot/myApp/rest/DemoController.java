@@ -10,11 +10,16 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     //define private field for dependency
-    private final Coach myCoach;
+    private Coach myCoach;
 
-    //define a constructor for dependency injection
+    /*//define a constructor for dependency injection
     @Autowired
     public DemoController(Coach theCoach){
+        myCoach = theCoach;
+    }*/
+
+    @Autowired
+    public void setCoach(Coach theCoach){
         myCoach = theCoach;
     }
 
