@@ -33,7 +33,7 @@ public class DemoController {
     //Implementing Qualifiers
     @Autowired
     public DemoController(
-            @Qualifier("trackCoach") Coach theCoach)
+            @Qualifier("aquatic") Coach theCoach)
            //@Qualifier("trackCoach") Coach theAnotherCoach
             {
 
