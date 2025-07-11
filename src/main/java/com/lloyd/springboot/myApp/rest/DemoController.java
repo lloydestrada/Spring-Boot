@@ -27,16 +27,17 @@ public class DemoController {
         myCoach = theCoach;
     }*/
 
-    /*Implementing Qualifiers
+    //Implementing Qualifiers
     @Autowired
     public DemoController(@Qualifier("trackCoach") Coach theCoach) {
-        myCoach = theCoach;
-    }*/
-
-    @Autowired
-    public DemoController(Coach theCoach){
+        System.out.println("In Constructor: " + getClass().getSimpleName());
         myCoach = theCoach;
     }
+
+    /*@Autowired
+    public DemoController(Coach theCoach){
+        myCoach = theCoach;
+    }*/
 
     @GetMapping("/dailyworkout")
     public String getDailyWorkout(){

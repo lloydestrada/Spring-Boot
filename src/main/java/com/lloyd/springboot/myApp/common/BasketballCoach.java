@@ -6,6 +6,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class BasketballCoach implements Coach{
 
+    public BasketballCoach(){
+
+        System.out.println("In Constructor: " + getClass().getSimpleName());
+    }
+
     @Override
     public String getDailyWorkout(){
 
